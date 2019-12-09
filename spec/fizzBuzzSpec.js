@@ -15,3 +15,9 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(15)).toEqual("FizzBuzz");
   })
 })
+
+describe ("fizzBuzz", function() {
+  it("should return the number when the number is not a multiple of 3 or 5", function() {
+    expect(fizzBuzz(4)).toEqual(4)
+  })
+})
