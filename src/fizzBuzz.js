@@ -1,6 +1,7 @@
-
-
 function fizzBuzz(number) {
-  return "Fizz"
+  if (number % 3 == 0) {
+    return 'Fizz'
+  } else {
+    return 'Buzz'
+  }
 };
-
