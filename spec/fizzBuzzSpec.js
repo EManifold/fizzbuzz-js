@@ -9,3 +9,9 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(5)).toEqual("Buzz");
   })
 })
+
+describe("fizzBuzz", function() {
+  it("should return FizzBuzz when passed 15", function() {
+    expect(fizzBuzz(15)).toEqual("FizzBuzz");
+  })
+})
